@@ -11,4 +11,9 @@ class MainController extends Controller
     {
         return view('indexMain');
     }
+
+    public function example()
+    {
+        return 10;
+    }
 }
