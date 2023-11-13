@@ -9,11 +9,16 @@ class MainController extends Controller
 {
     public function indexMain()
     {
-        return view('indexMain');
+        return view('pages/indexMain');
     }
 
-    public function example()
+    public function contact()
     {
-        return 10;
+        return view('pages/contact');
+    }
+
+    public function about()
+    {
+        return view('pages/about');
     }
 }

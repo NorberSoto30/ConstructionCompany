@@ -16,3 +16,5 @@ use App\Http\Controllers\MainController;
 */
 
 Route::get('/', [MainController::class, 'indexMain'])->name('indexMain');
+Route::get('/contact', [MainController::class, 'contact'])->name('contact');
+Route::get('/about', [MainController::class, 'about'])->name('about');
