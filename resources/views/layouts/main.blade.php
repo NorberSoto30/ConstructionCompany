@@ -36,7 +36,9 @@
     </head>
     <body>
         <div id="app">
-            @yield('content')
+            <div id="page" class="latest-version image-bg pattern-bg fixed" data-background="{{ asset('img/img_constructora/bg_const.jpg') }}">
+                @yield('content')
+            </div>
         <div>
         
         <!-- Sección de Js -->

@@ -27,7 +27,7 @@
                         <!-- Ends Features Menu -->
                         <!-- ABout Us -->
                         <li>
-                            <a href="{{ route('about') }}">About</a>
+                            <a href="{{ route('about') }}">Acerca De</a>
                             <!-- <ul class="dropdown-menu">
                                 <li>
                                     <a >About Us</a>
@@ -47,7 +47,7 @@
                         <!-- Portfolio Menu -->
                         <!-- Contact Block -->
                         <li>
-                            <a href="{{ route('contact') }}">Contact</a>
+                            <a href="{{ route('contact') }}">Contactanos</a>
                         </li>
                         <!-- Ends Contact Block -->
                     </ul>
